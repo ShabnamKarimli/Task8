@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.learning .banner1{
+    height: 100vh;
+    font-family: 'Gentium Book Plus', serif;
+    padding:  4rem 0 0 4rem;
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+}
+.learning  .banner1 .box{
+    height: 500px;
+    width: 43%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5rem;
+    padding: 3rem 0 0 6rem;    
+}
+.learning  .banner1.box button{
+    width: 13rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #ED078B;
+    margin-top: 3rem ; 
+    color: white;
+}
+.learning .banner1 .box h1:nth-child(1){
+    font-size: 5rem;
+    color: #423F8D;
+    line-height: 5rem;
+}
+.learning .banner1 .box h1:nth-child(2){
+    font-size: 3rem;
+    margin: 2rem 0 2px 0;
+    color: #FBCE0F;
+}
+.event .banner2{
+    height: 100vh;
+    background-image: url(../img/bg2.jpg);
+    background-size:cover ;
+    align-content: center;
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 26px;
+}
+.event .banner2 .eventbox{
+    height: 500px;
+    width: 55%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5rem;
+    margin:auto;
+    padding: 3rem;
+}
+.event .banner2 .eventbox .btn{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: #ED078B;
+    border: none;
+    color: white;
+    margin-bottom: 2rem;
+    font-family: 'Gentium Book Plus', serif;
+}
+.event  .banner2 .eventbox .times .timebox{
+    width: 70px;
+    height: 85px;
+    border-radius: 1.2rem;
+    background-color:  #FFFAE6;
+}
